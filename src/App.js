@@ -1,5 +1,6 @@
 import React from 'react';
 import Lemon from './Lemon';
+import Orange from './Orange';
 
 function Fruit(props){
   return <div>I like {props.name}</div>
@@ -12,8 +13,8 @@ function App() {
       <Fruit name='apple'/>
       <Fruit name='lemon'/>
       <Fruit name='grape'/>
-      <Fruit name='orange'/>
-      <Fruit name='strawberry'/>
+      <Lemon />
+      <Orange />
     </div>
   );
 }
